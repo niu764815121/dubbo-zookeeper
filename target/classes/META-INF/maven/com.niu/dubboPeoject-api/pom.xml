@@ -1,0 +1,9 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+    <groupId>com.niu</groupId>
+    <artifactId>dubboPeoject-api</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+  <packaging>jar</packaging>  
+  <!--因为服务提供方和服务消费方都依赖于相同的接口，所以强烈推荐
+  	把接口独立到一个单独的模块中，以便服务提供者和服务消费着可以共享这个模块-->
+</project>
